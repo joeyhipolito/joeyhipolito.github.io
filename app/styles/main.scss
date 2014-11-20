@@ -1,0 +1,25 @@
+/*
+ * Joey Hipolito ( Jose Marcelius S. Hipolito )
+ * personal website, blog and portfolio
+ * Author: Joey Hipolito < hi@joeyhipolito.com >
+*/
+
+/* bower dependencies */
+// bower:scss
+@import "normalize-scss/_normalize.scss";
+@import "modular-scale/stylesheets/_modular-scale.scss";
+// endbower
+
+/* base */
+@import "_base/_config.scss";
+@import "_base/_defaults.scss";
+
+/* fonts */
+@import "roboto-fontface/roboto-fontface.scss";
+@import "ionicons/scss/ionicons.scss";
+
+/* layout */
+
+/* modules */
+
+/* state */
