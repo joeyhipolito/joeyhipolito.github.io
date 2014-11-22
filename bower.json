@@ -3,6 +3,7 @@
   "private": true,
   "dependencies": {
     "normalize-scss": "~3.0.2",
-    "modular-scale": "~2.0.5"
+    "modular-scale": "~2.0.5",
+    "classie": "~1.0.1"
   }
 }

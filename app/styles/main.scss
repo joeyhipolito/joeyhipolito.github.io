@@ -10,16 +10,19 @@
 @import "modular-scale/stylesheets/_modular-scale.scss";
 // endbower
 
-/* base */
+// base
 @import "_base/_config.scss";
-@import "_base/_defaults.scss";
+@import "_base/_preferences.scss";
 
-/* fonts */
+// fonts
 @import "roboto-fontface/roboto-fontface.scss";
 @import "ionicons/scss/ionicons.scss";
 
-/* layout */
+// layouts
+@import "_layouts/l-aligner.scss";
 
-/* modules */
+// modules
+@import "_modules/m-splash-pull.scss",
+        "_modules/m-social.scss";
 
-/* state */
+// states

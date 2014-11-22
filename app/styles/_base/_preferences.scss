@@ -1,0 +1,60 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: $white;
+  font-family: $font;
+  font-size: ms(1);
+  font-weight: $fw--thin;
+}
+
+a, a:active, a:link, a:visited {
+  color: rgba(255,255,255,0.9);
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: $fw--thin;
+}
+
+h1 {
+  font-size: ms(2);
+}
+
+h3 {
+  font-size: ms(1);
+}
+
+.fs--3 {
+  font-size: ms(3)
+}
+
+.fw--bold {
+  font-weight: $fw--bold;
+}
+
+.ft--upper {
+  text-transform: uppercase;
+}
+
+.i-header {
+  color: rgba(255,255,255,0.9);
+  white-space: nowrap;
+  text-align: center;
+}
+
+.fls {
+  letter-spacing: ms();
+  text-align: right;
+  margin-right: ms() * -1;
+}
+
+.ta-l {
+  text-align: left;
+}

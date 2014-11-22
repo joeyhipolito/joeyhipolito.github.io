@@ -1,0 +1,27 @@
+.m-social {
+  margin-top: ms(2, 16px, $golden);
+}
+
+.m-social > a {
+  border: 0;
+  display: inline-block;
+  margin-right: ms(3, 16px, $golden);
+  height: ms(1, 16px, $golden);
+  width: ms(1);
+  font-size: ms(2, 16px, $golden);
+}
+
+.m-social > a:last-child {
+  margin-right: 0;
+}
+
+.m-social__icon {
+  transition: transform 0.25s ease, color 0.25s linear;
+  transform: scale(0.7);
+  display: block;
+}
+
+.m-social a:hover > .m-social__icon {
+  color: #03a9f4;
+  transform: scale(1.0);
+}
